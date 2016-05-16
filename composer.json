@@ -1,5 +1,5 @@
 {
-    "name": "bitbeans/yubikey",
+    "name": "marcinkozak/yubikey",
     "description": "Yubikey for Laravel 5",
     "keywords": ["yubikey", "laravel", "laravel5"],
     "license": "MIT",
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bitbeans\\Yubikey\\": "src/"
+            "MarcinKozak\\Yubikey\\": "src/"
         }
     },
     "minimum-stability": "dev"

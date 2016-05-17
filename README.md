@@ -2,8 +2,7 @@
 
 Yubikey for Laravel 5
 
-This package is based on the [Laravel 4 package](https://github.com/Monarobase/Yubikey) by Monarobase.
-
+This package contain fixes which has been found on the [bitbeans/Yubikey](https://github.com/bitbeans/Yubikey) Repository.
 
 [Buy a Yubikey](https://store.yubico.com)
 
@@ -12,9 +11,9 @@ This package is based on the [Laravel 4 package](https://github.com/Monarobase/Y
 
 ## Installation
 
-Add `bitbeans/yubikey` to `composer.json`.
+Add `marcinkozak/yubikey` to `composer.json`.
 ```
-"bitbeans/yubikey": "dev-master"
+"marcinkozak/yubikey": "dev-master"
 ```
 
 Run `composer update` to pull down the latest version of Yubikey.
@@ -22,14 +21,14 @@ Run `composer update` to pull down the latest version of Yubikey.
 Now open up `PROJECTFOLDER/config/app.php` and add the service provider to your `providers` array.
 ```php
 'providers' => array(
-	'Bitbeans\Yubikey\YubikeyServiceProvider',
+	'MarcinKozak\Yubikey\YubikeyServiceProvider',
 )
 ```
 
 And also the alias.
 ```php
 'aliases' => array(
-	'Yubikey' => 'Bitbeans\Yubikey\YubikeyFacade',
+	'Yubikey' => 'MarcinKozak\Yubikey\YubikeyFacade',
 )
 ```
 

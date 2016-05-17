@@ -2,7 +2,7 @@
 
 Yubikey for Laravel 5
 
-This package contain fixes which has been found on the [bitbeans/Yubikey](https://github.com/bitbeans/Yubikey) Repository.
+This package contain fixes which have been found on the [bitbeans/Yubikey](https://github.com/bitbeans/Yubikey) Repository.
 
 [Buy a Yubikey](https://store.yubico.com)
 

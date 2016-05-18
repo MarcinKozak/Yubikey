@@ -19,7 +19,7 @@
  * @link        https://github.com/bitbeans
  */
 
-namespace Bitbeans\Yubikey;
+namespace MarcinKozak\Yubikey;
 
 use Illuminate\Support\ServiceProvider;
 
